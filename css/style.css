@@ -96,11 +96,6 @@ html
 html, body
   height: 100%
 
-.sfondo {
-
-
-  font-family: 'Montserrat', sans-serif+cursive;
-}
 
 button {
   display: inline-block
