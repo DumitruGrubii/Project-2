@@ -2,33 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A small web page created to generate personalized PDF invoices">
     <meta name="keywords" content="Dumitru Grubii, HTML, CSS, JS, JavaScritp, Invoice, PDF, Partita IVA, Fattura">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Dumitru Grubii">
 
     <!--Links-->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Project 2 - Partita IVA</title>
   </head>
 
   <header>
     <div class="row">
       <div class="col-md-12">
-        <div class="Riempimento_header">
+        <div class="">
         </div>
       </div>
     </div>
   </header>
   <body>
-    <div class="row">
-      <div class="container">
-        <div class="col-md-12">
-          <div class="rettangolo">
-            <img src="images/Maskyn_New_Logo.svg" alt="Maskyn's Logo" width="180px" height="180px">
-            <h1 class="LogIn_titolo">Login</h1>
-          </div>
+    <!-- info_page starting -->
+    <!-- ctrl + shift + 7 for comments -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 nopadding">
+          <section class="info_page">
+            <img src="images/Maskyn_New_Logo_white.svg" class="logo" alt="Maskyn's Logo">
+
+
+          </section>
+        </div>
+
+        <!-- info_page ending -->
+
+        <div class="col-md-6 nopadding">
+          <section class="login_form">
+            <h1 class="welcomeText">Benvenuto</h1>
+                  <form class="form-signin">
+                    <h2 class="form-signin-heading">Please sign in</h2>
+                    <label for="inputEmail" class="sr-only">Email address</label>
+                    <input type="email" id="inputEmail" class="form-control emailAdress" placeholder="Email address" required autofocus>
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                      </label>
+                    </div>
+                    <button class="btn btn-outline-primary btn-block" type="submit">Entra</button>
+                  </form>
+
+                </div> <!-- /container -->
+
+          </section>
 
         </div>
 
