@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 800px;
+  height: 1000px;
 }
 
 .login_form {
@@ -21,6 +21,7 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
+  height: 1000px;
 }
 
 .welcomeText {
@@ -50,7 +51,8 @@ body {
 .logo {
   width: 120px;
   height: 120px;
-  margin-right: 50px;
+  margin-right: 500px;
+  margin-bottom: 500px;
 }
 
 .emailAdress {
