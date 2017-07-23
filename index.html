@@ -43,38 +43,33 @@
 
         <div class="col-md-6 nopadding">
           <section class="login_form">
-            <h1 class="welcomeText">Benvenuto</h1>
-                  <form class="form-signin">
-                    <h4 class="form-signin-heading">Inserisci i tuoi dati per effettuare l'accesso</h4>
-                    <label for="inputEmail" class="sr-only">Email</label>
-                    <input type="email" id="inputEmail" class="form-control emailAdress" placeholder="Email address" required autofocus>
-                    <label for="inputPassword" class="sr-only">Password</label>
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox" value="remember-me"> Ricordami
-                      </label>
+
+
+              <div class="container">
+                <div class="card">
+                  <h1 class="welcomeText">Benvenuto</h1>
+                  <form>
+                    <div class="input-container">
+                      <input type="#{type}" id="#{label}" required="required"/>
+                      <label for="#{label}">Username</label>
+                      <div class="bar"></div>
                     </div>
-                    <button class="btn btn-outline-primary btn-block" type="submit">Entra</button>
-                    <a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-sign-in"></i>Entra</span></a>
-
+                    <div class="input-container">
+                      <input type="#{type}" id="#{label}" required="required"/>
+                      <label for="#{label}">Password</label>
+                      <div class="bar"></div>
+                    </div>
+                    <div class="button-container">
+                      <button><span>Entra</span></button>
+                    </div>
                   </form>
-
-                  <!-- bottone codepen -->
-                  <div class="wrapper">
-<a href="#" class="fancy-button bg-gradient2"><span><i class="fa fa-plus"></i></span></a>
-<br><br>
-<h3>Magnet</h3>
-<a href="#" class="fancy-button pop-onhover bg-gradient1"><span>Publish</span></a>
-<a href="#" class="fancy-button pop-onhover bg-gradient3"><span><i class="fa fa-pencil"></i>Edit</span></a>
-
-<h3>Solid to gradient</h3>
-<a href="#" target="_blank" class="fancy-button pop-onhover bg-gradient4"><span>Save</span></a>
+                </div>
+              </div>
 
 
-</div><!-- /.wrapper -->
 
-                  <!-- fine bottone -->
+
+
 
                 </div> <!-- /container -->
 
@@ -88,6 +83,13 @@
     <script type="text/javascript" source="js/bootstrap.min.js"></script>
     <script type="text/javascript" source="js/bootstrap.js"></script>
     <script type="text/javascript" source="js/jquery-3.2.1.min.js"></script>
+
+    <!-- personal scripts -->
+
+    <script type="text/javascript" source="js/login_form.js"></script>
+
+    </script>
+
 
 
     </script>
