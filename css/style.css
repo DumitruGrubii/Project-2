@@ -10,7 +10,6 @@ body {
 
 .info_page {
   background: linear-gradient(to left bottom, #fd664e, #fe8258);
-  align-items: center;
   justify-content: center;
   display: flex;
   height: 1000px;
@@ -22,6 +21,13 @@ body {
   margin: 0;
   padding: 0;
   height: 1000px;
+}
+
+.creaProfilo {
+  font-size: 14px;
+  color: #D8D8D8;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .welcomeText {
@@ -51,6 +57,16 @@ body {
   float: left;
   width: 15%;
   height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 10%;
+}
+
+.GIF {
+  height: 300pX;
+  width: auto;
+  align-self: center;
+
 }
 
 .emailAdress {
